@@ -1,0 +1,42 @@
+.con >div{position: absolute;}
+.bg{width: 100%;height: 100%}
+.bg img{height: 100%;max-width: 300%}
+.con{width: 100%;height: 100%;}
+.con h1 {
+    color: #8585bf;
+    font-family: "kbfont";
+    font-size: 3.3vw;
+    margin-bottom: 17%;
+}
+.con_t h2,.con_t >a {
+	margin-top: 7%;
+    font-family: "efont";
+    font-size: 1.3vw;
+}
+
+.t1{left: 57.34%;top: 48.2%}
+.t2{left: 57.34%;top: 55%}
+.t3{left: 57.34%;top: 76.2%}
+
+.text_a{color: #000;font-weight: bold;}
+.text_a:visited{color: #000;
+    font-family: "efont";}
+.text_a:hover{color: #000;border-bottom-width: 0.1rem;border-bottom-style: solid;
+    font-family: "efont";}
+.text_a:active{color: #000;
+    font-family: "efont";}
+
+.con1{width: 18.6%;left: 7.76%;bottom: 6.4%}
+.con2{width: 7%;left: 29.3%;bottom: 0}
+.con3{width: 12%;left: 62%;top: 15.37%}
+.con4{width: 17%;left: 74.5%;bottom: 6.1%}
+
+.con1 a{width: 100%;height: 100%}
+.con2 a{width: 100%;height: 100%}
+.con3 a{width: 100%;height: 100%}
+
+.con_t{left: 47%;top: 30%;width: 22%}
+
+
+.con_but{display: flex;}
+.con_but div{width: 20%}

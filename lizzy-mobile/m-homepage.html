@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>content</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css_js/base.css">
+	<link rel="stylesheet" href="css_js/mobile.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<style type="text/css"> 
+	@font-face {
+		font-family: cfont;
+		/* src:local('Campton DEMO'); */
+		src:url('Fonts/Campton Bold DEMO.otf');
+		/* src:url('Fonts/Campton Bold DEMO.ttf'); */
+	}
+	</style> 
+</head>
+<body>
+
+<nva id="nav">
+<div class="action">
+	<div id="mlogo"><a href="m-homepage.html" style="background-color: #fff"><img src="imgs/m/logo.svg"></a></div>
+		<div id="mmenu">
+			<a href="javascript:;"><img src="imgs/m/menu.svg"></a>
+	</div>
+</div>
+</nva>
+<div class="mmenu">
+	<div class="mclose">X</div>
+	<div class="mproj"><a href="javascript:gotoPoint('#mtxt')">PROJECT</a></div>
+	<div class="mabt"><a href="javascript:gotoPoint('#mtxtbg07')">ABOUT</a></div>
+	<div class="mcnt"><a href="javascript:gotoPoint('#mtxtbg08')">CONTACT</a></div>
+</div>
+<div class="cte">
+	<div class="con1">
+		<img src="imgs/m/hpbg01.svg">
+		<div id="mtxt">
+			<div class="mtxt0101">Shiyi Liu</div>
+			<div class="mtxt0102">Shiyi Liu</div>
+			<div class="mtxt0103">UI Design</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg02.svg">
+		<div id="mpic"><img src="imgs/m/hp01-1.svg"></div>
+		<div id="mtxtbg02">
+			<div id="mtxtbg0201">01</div>
+			<div id="mtxtbg0202">IMMERSIVE</div>
+			<div id="mtxtbg0203">Case study</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg03.svg">
+		<div id="mpic"><img src="imgs/m/hp02.svg"></div>
+		<div id="mtxtbg03">
+			<div id="mtxtbg0301">02</div>
+			<div id="mtxtbg0302">PATH</div>
+			<div id="mtxtbg0303">Case study</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg04.svg">
+		<div id="mpic"><img src="imgs/m/hp03-1.svg"></div>
+		<div id="mtxtbg04">
+			<div id="mtxtbg0401">03</div>
+			<div id="mtxtbg0402">MEMOIR</div>
+			<div id="mtxtbg0403">Case study</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg05.svg">
+		<div id="mpic2"><img src="imgs/m/hp04-1.svg"></div>
+		<div id="mtxtbg05">
+			<div id="mtxtbg0501">04</div>
+			<div id="mtxtbg0502">YOUNG</div>
+			<div id="mtxtbg0504">&HUNGRY</div>
+			<div id="mtxtbg0503">Web design</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg06.svg">
+		<div id="mpic2"><img src="imgs/m/hp05-1.svg"></div>
+		<div id="mtxtbg06">
+			<div id="mtxtbg0601">05</div>
+			<div id="mtxtbg0602">CITY RUN</div>
+			<div id="mtxtbg0603">Web design</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg07.svg">
+		<div id="mpic3"><img src="imgs/m/hp06-3.png"></div>
+		<div id="mtxtbg07">
+			<div id="mtxtbg0701">06</div>
+			<div id="mtxtbg0702">RIVER</div>
+			<div id="mtxtbg0703">Photograph</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg08.svg">
+		<div id="mtxtbg08">
+			<div id="mtxtbg0801"><p class="p080101">WEB</P><p class="p080102">DESIGNER</p></div>
+			<div id="mtxtbg0802">Hi, This is Shiyi Liu. </div>
+			<div id="mtxtbg0803">I am an professional web designer with 4 years training in visual design and web usability design. My works are focused on designing unique, smart and functional websites and application interfaces. </div>
+			<div id="mtxtbg0804">Resume</div>
+		</div>
+	</div>
+	<div class="con1"><img src="imgs/m/hpbg09-1.svg">
+		<div id="mtxtbg09">
+			<div id="mtxtbg0901">CONTACT ME</div>
+			<div id="mtxtbg0902">We definitely should get in touch</br></br>
+				Please feel free to contact me at anytime!</br></br>
+				poetrylizzy@gmail.com</br></br>
+				Follow Me</div>
+		</div>
+	</div>
+</div>
+
+	<script type="text/javascript">
+		$('#mmenu').click(function(){
+			alert();
+			$('.mmenu').slideDown();
+		});
+		$('.mclose').click(function(){
+			$('.mmenu').slideUp();
+		});
+		function gotoPoint(tp){
+			$('.mmenu').hide();
+			var totop=$(tp).offset().top-$(tp+' img').height();
+
+			$('html,body').animate({scrollTop:totop},1000);
+		}
+	</script>
+</body>
+</html>

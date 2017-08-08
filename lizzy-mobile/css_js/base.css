@@ -1,0 +1,73 @@
+html{font-size: 62.5%}
+body{background: #f7f8f3 none repeat scroll 0 0;
+	overflow:-Scroll;overflow-x:hidden;height: 100%;width: 100%;
+	}
+ul,li{list-style: outside none none;margin: 0;}
+li{list-style: none;}
+ul{padding: 0}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+img {
+    border: 0 none;
+    height: auto;
+    line-height: 0;
+    max-width: 100%;
+    vertical-align: top;
+  	display: inline-block;
+}
+
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+@font-face {
+		font-family: cfont;
+		/* src:local('Campton DEMO'); */
+		src:url('Fonts/Campton Bold DEMO.otf');
+		/* src:url('Fonts/Campton Bold DEMO.ttf'); */
+	}
+@font-face {
+    font-family: efont;
+    src:url('../Fonts/edelsans_regular.otf');
+}
+
+@font-face {
+    font-family: kbfont;
+    src:url('../Fonts/Korolev Bold.otf');
+}
+
+@font-face {
+    font-family: khifont;
+    src:url('../Fonts/Korolev Heavy Italic.otf');
+}
+
+@font-face {
+    font-family: khfont;
+    src:url('../Fonts/Korolev Heavy.otf');
+}
+.section div,.section h1,.section h2,.section h3,.section p{position: absolute;}
+
+/*导航条*/
+#nav{width: 100%;height: 20%;position: fixed;z-index: 9999;display: flex;font-family: "kbfont";}
+.action{ height:100%;width: 75.77%;margin: 0 auto;
+    display: flex;align-items:center; /* IE8 以及更早的浏览器 */
+    }
+#logo{height: 100%;width: 42.07%;}
+#logo img{width:100%;height: 100%;
+    }
+#logo a{display:block;width: 20%;height: 100%;
+    }
+
+#nva_menu{ display:inline-block;font-size: 250%;
+    width: 50%;height: 100%;}
+#nva_menu a{text-decoration:none;color: #fff;}
+#nva_menu a:visited{color: #fff;}
+#nva_menu a:hover{color: #fff;border-bottom-width: 0.3rem;border-bottom-style: solid;}
+#nva_menu a:active{color: #fff;}
+.nvabar{height: 100%;display: flex;justify-content: space-between;}
+#nva_menu li{height: 100%;float: left;
+    margin-right: 14%;}
+#nva_menu a{display: block;height: 100%;align-items: center;display: flex;}
+
+
+/*菜单栏*/
+#Shamso{position: fixed;z-index: 999;left: 5.457%;top: 44.9%;}

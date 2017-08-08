@@ -1,0 +1,146 @@
+html{font-size: 1vmax}
+body{background: #f7f8f3 none repeat scroll 0 0;
+	overflow:-Scroll;overflow-x:hidden;height: 100%;width: 100%;
+	}
+ul,li{list-style: outside none none;margin: 0;}
+ul{padding: 0}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+img {
+    border: 0 none;
+    height: auto;
+    line-height: 0;
+    max-width: 100%;
+    vertical-align: top;
+  	display: inline-block;
+}
+
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+@font-face {
+    font-family: cfont;
+    src:url('../lizzy/Fonts/Campton Bold_DEMO.otf');
+}
+
+@font-face {
+    font-family: efont;
+    src:url('../Fonts/edelsans_regular.otf');
+}
+
+@font-face {
+    font-family: kbfont;
+    src:url('../Fonts/Korolev Bold.otf');
+}
+
+@font-face {
+    font-family: khifont;
+    src:url('../Fonts/Korolev Heavy Italic.otf');
+}
+
+@font-face {
+    font-family: khfont;
+    src:url('../Fonts/Korolev Heavy.otf');
+}
+/*.section div,.section h1,.section h2,.section h3,.section p{position: absolute;}*/
+
+/*导航条*/
+#nav{width: 100%;position: fixed;z-index: 9999;font-family: 'khfont';}
+.nav_1{ height:100%;width: 75.77%;margin: 0 auto;position: relative;
+    display: flex;align-items:center; /* IE8 以及更早的浏览器 */
+    }
+#logo{height: 100%;width: 35%;}
+#logo img{width:100%;height: 100%;
+    }
+#logo a{display:block;width: 25%;height: 100%;
+    }
+
+#nav_menu{ display:inline-block;font-size: 2.5vw;position: absolute;top: 0;right: 0;
+    width: 65%;height: 100%;}
+#nav_menu a{text-decoration:none;color: #fff;position: absolute;}
+#nav_menu a:visited{color: #fff;}
+#nav_menu a:hover{color: #fff;border-bottom-width: 0.3rem;border-bottom-style: solid;}
+#nav_menu a:active{color: #fff;}
+#nav_menu ul{display: flex;justify-content:space-around;color: #ae87bc}
+
+#nav_menu a{display: block;height: 100%;align-items: center;display: flex;}
+
+
+/*菜单栏*/
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    bottom: 6.2%;
+    left: 5.457%;
+    opacity: 1;
+    width: 4%;
+    height: 48%;
+}
+
+#fp-nav.right {
+    right: 17px;
+}
+#fp-nav.left {
+    left: 17px;
+}
+
+#fp-nav ul,
+.fp-slidesNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    display: block;
+    width: 0.8vw;
+    height: 0.8vw;
+    position:relative;
+}
+
+
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    border: 0.5vw solid #418fff;
+    border-radius: 50%;
+    height: 2.5vw;
+    left: -0.7vw;
+    top: -0.8vw;
+    width: 2.5vw;
+    background-color: transparent ;
+}
+
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    width: 150%;
+    height: 150%;
+    background-color: #e9a4ff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#fp-nav ul li:hover .fp-tooltip {
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 1;
+}
+

@@ -1,0 +1,40 @@
+.abt div,.abt h1,.abt h2,.abt p{position: absolute;}
+.abt{width: 100%;height: 100%;}
+
+.abo1{width: 27.55%;left: 29%;top: 28.3%;}
+.abo2{width: 12%;left: 80.3%;top: 21.76%;}
+.abt h1 {
+    color: #f8d252;
+    font-size: 4.2vw;
+    left: 8.5%;
+    top: 20.6%;
+    font-family: "kbfont";
+}
+
+
+.abt h2 {
+    color: #fff;
+    font-size: 3vw;
+    left: 43.85%;
+    top: 46%;
+    font-family: "kbfont";
+}
+
+
+.abt p{
+	font-size: 1.1vw;
+	color: #fff;
+    left: 43.85%;
+	top: 58.4%;
+	width: 34.9%;
+    font-family: "efont";
+}
+
+
+.abo_bg{
+	width: 78.9%;
+    background-color: #3cf0bb;
+    height: 73.8%;
+    right: 0;
+    top: 20.6%;
+    }

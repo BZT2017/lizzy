@@ -1,0 +1,313 @@
+@font-face {
+		font-family: cfont;
+		/* src:local('Campton DEMO'); */
+		src:url('Fonts/Campton Bold DEMO.otf');
+		/* src:url('Fonts/Campton Bold DEMO.ttf'); */
+	}
+	
+.cte{max-width: 1920px;margin: 0 auto;}
+	#mlogo{
+		width:18%;top:0;position: absolute;top: -20%;
+	}
+	#mmenu{
+		width:18%;top:0;position: absolute;right:10%;
+	}
+	#mpic{width:100%;position: absolute;}
+	#mpic img{width:16.8%;left:8.4%;bottom: 10%;position: absolute;margin-bottom: 2%;}
+	#mpic2{width:100%;position: absolute;}
+	#mpic2 img{width:22%;left:8.4%;bottom: 0;position: absolute;margin-bottom: 2%}
+	#mpic3{width:100%;position: absolute;}
+	#mpic3 img{width:25%;left:8.4%;bottom: 0;position: absolute;margin-bottom: 2%}
+	
+	#mtxt {
+		line-height: 0;
+		margin-left: 20%;
+	}
+	
+	#mtxt .mtxt0101 {
+		bottom: 34%;
+		color: #689ad2;
+		font-size: 10vw;
+		font-family:cfont;
+		font-weight: 900;
+		left: 27%;
+		position: absolute;
+		text-align: center;
+		z-index: 100;
+	}
+	#mtxt .mtxt0102{
+		bottom: 34.6%;
+		color: #fff;
+		font-size: 10vw;
+		left: 27.4%;
+		position: absolute;
+		text-align: center;
+		font-family:cfont;
+		font-weight: 900;
+	}
+
+	#mtxt .mtxt0103{position: absolute;bottom: 17%;color:#fff;font-family:khfont;font-size: 6vw;left: 37%;}
+	.con1 {position: relative;}
+	#mtxtbg02{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg02 #mtxtbg0201{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg02 #mtxtbg0202{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg02 #mtxtbg0203{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg03{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg03 #mtxtbg0301{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg03 #mtxtbg0302{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg03 #mtxtbg0303{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg04{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg04 #mtxtbg0401{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg04 #mtxtbg0402{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg04 #mtxtbg0403{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg05{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg05 #mtxtbg0501{
+		bottom: 65.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg05 #mtxtbg0502{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg05 #mtxtbg0504{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg05 #mtxtbg0503{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg06{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg06 #mtxtbg0601{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg06 #mtxtbg0602{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg06 #mtxtbg0603{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg07{
+		line-height: 0;
+		margin-left: 20%;}
+	#mtxtbg07 #mtxtbg0701{
+		bottom: 45.6%;
+		color: #AE87BC;
+		font-size: 3vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg07 #mtxtbg0702{
+		bottom: 25.6%;
+		color: #AE87BC;
+		font-size: 7.85vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	#mtxtbg07 #mtxtbg0703{
+		bottom: 6.6%;
+		color: #AE87BC;
+		font-size: 5vw;
+		right: 10%;
+		position: absolute;
+		text-align: center;
+		font-family:khfont;}
+	.p080101{color: #f8d252;
+		font-family: cfont;
+		font-size: 4.4vw;
+		left: 8%;
+		position: absolute;
+		text-align: center;
+		top: 16%;}
+	.p080102{color: #f8d252;
+		font-family: cfont;
+		font-size: 4.4vw;
+		left: 8%;
+		position: absolute;
+		text-align: center;
+		top: 22%;}
+	#mtxtbg0802{
+		color: #fff;
+		font-family: khfont;
+		font-size: 4.4vw;
+		left: 40%;
+		position: absolute;
+		text-align: center;
+		top: 26%;}
+	#mtxtbg0803{
+		color: #fff;
+		font-family: Edelsans;
+		font-size: 3.4vw;
+		left: 40%;
+		position: absolute;
+		text-align: left;
+		top: 39%;}
+	#mtxtbg0804{
+		bottom: 9%;
+		color: #f8d252;
+		font-family: khfont;
+		font-size: 4.4vw;
+		left: 40%;
+		position: absolute;
+		text-align: left;}
+	#mtxtbg0901{
+		color: #000;
+		font-family: khfont;
+		font-size: 6.4vw;
+		left: 50%;
+		position: absolute;
+		text-align: center;
+		top: 26%;}
+	#mtxtbg0902{
+		color: #000;
+		font-family: Edelsans;
+		font-size: 2.6vw;
+		left: 50%;
+		position: absolute;
+		text-align: left;
+		top: 43%;}
+	#mtxtbg0903{
+		color: #fff;
+		font-family: khfont;
+		font-size: 4.4vw;
+		left: 40%;
+		position: absolute;
+		text-align: center;
+		top: 26%;}
+	.mclose{
+		font-size: 8vw;
+		position: absolute;
+		font-family: efont;
+		right: 8%;}
+	.mproj{
+		position: absolute;
+		text-align: center;
+		top: 18%;
+		width: 100%;}
+	.mabt{
+		position: absolute;
+		text-align: center;
+		top: 43%;
+		width: 100%;}
+	.mcnt{
+		position: absolute;
+		text-align: center;
+		top: 68%;
+		width: 100%;}
+	.mmenu{
+		background-color: #fff;
+		display: flex;
+		font-family: "cfont";
+		height: 90%;
+		position: fixed;
+		width: 100%;
+		z-index: 19999;
+		font-size: 8vw;display:none;
+	}
+	.mmenu a{text-decoration:none;color:#000}
